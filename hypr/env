@@ -1,0 +1,3 @@
+# Configurar teclado ABNT2 no Hyprland
+export XKB_DEFAULT_LAYOUT=br
+export XKB_DEFAULT_MODEL=abnt2

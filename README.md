@@ -1,6 +1,6 @@
 # Instalação e Configuração de um Ambiente de Desenvolvimento Moderno com Arch Linux e Hyprland
 
-> Minhas configurações do HyprLand e WayBar
+Minhas configurações do HyprLand e WayBar
 
 
 ## **Personalização do Ambiente**
@@ -33,6 +33,10 @@ Ajuste livremente no mesmo arquivo, conforme o estilo desejado. Veja o arquivo `
 
 Waybar é uma barra de status altamente personalizável para ambientes Wayland, como o Hyprland. Ela pode exibir informações úteis, a mais útil delas sendo as diferentes workspaces do hyprland. Também pode ser usada pra uma infinidade de outras funções, como mostrar a hora, uso de CPU, memória, rede, bateria e muito mais.
 
+```
+sudo pacman -S waybar
+```
+
 > Verifique alguns exemplos de configuração [aqui](https://github.com/Alexays/Waybar/wiki/Examples)
 
 - Topicos:
@@ -61,6 +65,3 @@ O modelo **rolling release** complementa isso: você recebe atualizações cont�
 
 A **Arch Wiki** é uma das documentações mais completas e respeitadas do mundo Linux. Ela não só cobre o ecossistema do Arch Linux, mas também explica conceitos gerais de sistemas Unix-like que se aplicam a praticamente qualquer distribuição. É um recurso que incentiva autonomia, entendimento profundo do sistema e uma abordagem mais consciente sobre como cada componente funciona.
 
-```
-sudo pacman -S waybar
-```

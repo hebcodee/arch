@@ -1,6 +1,6 @@
-# Instalação e Configuração de um Ambiente de Desenvolvimento Moderno com Arch Linux e Hyprland
+# Configuração do meu Ambiente de Desenvolvimento Produtivo e Moderno  com Arch Linux e Hyprland
 
-Minhas configurações do HyprLand e WayBar
+> Minhas configurações do HyprLand e WayBar
 
 
 ## **Personalização do Ambiente**

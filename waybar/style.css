@@ -9,7 +9,7 @@
 @define-color green #a6da95;
 @define-color teal #8bd5ca;
 @define-color sky #91d7e3;
-@define-color sapphire #7dc4e4;
+@define-color sapphire #ab8de3;
 @define-color blue #8aadf4;
 @define-color lavender #b7bdf8;
 @define-color text #cad3f5;
@@ -21,7 +21,7 @@
 @define-color surface2 #5b6078;
 @define-color surface1 #494d64;
 @define-color surface0 #363a4f;
-@define-color base #24273a;
+@define-color base #16171c;
 @define-color mantle #1e2030;
 @define-color crust #181926;
 
@@ -65,7 +65,7 @@ window#waybar {
 
 #window {
   font-weight: bold;
-  color: @sky;
+  color: @sapphire;
   transition: all 0.3s ease;
 }
 
@@ -110,4 +110,17 @@ window#waybar {
 
 #clock:hover {
   color: @purple;
+}
+
+#battery {
+  color: @sapphire;
+  font-weight: bold;
+}
+
+#battery.warning {
+  color: #ab9de3;
+}
+
+#battery.critical {
+  color: #0d002b;
 }

@@ -27,10 +27,27 @@
   "modules-right": ["tray", "clock", "battery", "pulseaudio", "network"],
 
   "network": {
-    "interface": "wlan0",
-    "format": "{essid} ({strength}%)",
-    "tooltip": true,
-    "on-click": "alacritty -e nmtui"
+  "interface": "wlan0",
+  "format-wifi": "{icon} {essid}",
+  "format-ethernet": "󰈀 Wired",
+  "format-disconnected": "󰖪 Offline",
+  "format-icons": {
+    "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+  },
+  "tooltip": true,
+  "on-click": "nm-applet --indicator"
+  },
+
+  "battery": {
+  "states": {
+    "warning": 30,
+    "critical": 15
+  },
+  "format": "{icon} {capacity}%",
+  "format-charging": "󰂄 {capacity}%",
+  "format-plugged": "󰚥 {capacity}%",
+  "format-alt": "{time} {icon}",
+  "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
 
   "pulseaudio": {
